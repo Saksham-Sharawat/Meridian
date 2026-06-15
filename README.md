@@ -29,7 +29,7 @@ You only need a modern web browser (Chrome, Firefox, Safari, Edge) to view this 
 
 1. **Clone the repository** (or download the ZIP file):
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Saksham-Sharawat/Meridian.git>
    ```
 2. **Navigate to the project directory:**
    ```bash
