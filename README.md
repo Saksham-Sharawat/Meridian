@@ -1,9 +1,5 @@
 # Meridian
 
-<div align="center">
-  <img src="images/image-1.png" alt="Meridian Hero Image" width="600">
-</div>
-
 > **A modern, keyboard-first web console interface designed for speed and efficiency.**
 
 Meridian is a beautiful web application UI tailored for managing logs, metrics, and traces. Designed with a focus on a "keyboard-first" experience, it helps teams managing production environments to significantly reduce their Mean Time To Resolve (MTTR) incidents.
