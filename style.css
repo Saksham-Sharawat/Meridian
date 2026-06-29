@@ -305,3 +305,165 @@ body {
     color: white;
     margin: 15px 0px 15px 30px;
 }
+
+/* section 3 */
+
+.section3 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.section3-tabs-container a {
+    font-size: 0.75rem;
+    color: rgba(255,255,255, 0.6);
+}
+
+/* section3 right part */
+
+.section3-right-part p {
+    font-size: 0.75rem;
+    color: rgba(255,255,255, 0.6);
+}
+
+/* section 4 */
+
+/* upper line */
+
+.section4 {
+    height: 500px;
+    padding: 40px 0px 40px 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 40px;
+}
+
+.section4 .first-line .bold {
+    font-size: 4.5rem;
+}
+
+.section4 .first-line {
+    display: flex;
+}
+
+.section4 .first-line .fade {
+    font-size: 4.5rem;
+    color: rgba(255,255,255, 0.6);
+}
+
+/* second line */
+
+.section4 .second-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 .second-line p {
+    font-size: 4.5rem;
+    color: rgba(255,255,255, 0.6);
+}
+
+.section4 {
+    line-height: 4em;
+}
+
+/* right side */
+
+.section4 .second-line pre {
+    font-size: 0.75rem;
+    color: rgba(255,255,255, 0.6);
+    line-height: 1rem;
+}
+
+/* section 4 images section */
+
+.section4-images {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section4-image1 img {
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2) ;
+    border-radius: 5px;
+}
+
+.section4-image2 img {
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.section4-image3 img {
+    height: 230px;
+    width: 170px;
+}
+
+/* section 5 */
+
+.section5 {
+    height: 300px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    display: flex;
+}
+
+.section5 .box {
+    width: 33.3%;
+    padding: 20px;
+}
+
+/* box top */
+
+.section5 .box-top {
+    display: flex;
+    width: 100%;
+}
+
+.section5 .num {
+    width: 50px;
+    font-size: 0.9rem;
+}
+
+.section5 .line {
+    width: 100%;
+    border-top: 0.5px solid rgba(128, 128, 128, 0.2);
+    margin: 10px;
+}
+
+.section5 .box-name {
+    width: 70px;
+    font-size: 0.65rem;
+    padding-top: 4px;
+} 
+
+.section5 .box-name p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* box heading */
+
+.section5 .box-heading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+/* box content */
+
+.section5 .box-content {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 10px 150px 40px 0px;
+}
+
+.section5 .box-content p {
+    color: rgba(255, 255, 255, 0.6);
+
+}
