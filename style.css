@@ -471,7 +471,7 @@ body {
 /* section 6 */
 
 .section6 {
-    height: 500px;
+    height: 600px;
 }
 
 /* upper border line */
@@ -579,4 +579,14 @@ body {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
     padding: 1rem 0 0 1rem;
+}
+
+/* section 6 image */
+
+.sec6-image img {
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2) ;
+    border-radius: 5px;
+    margin: 2rem 0 0 5rem;
 }
