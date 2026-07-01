@@ -394,6 +394,10 @@ body {
     border-radius: 5px;
 }
 
+.section4-image1 {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.15));
+}
+
 .section4-image2 img {
     height: 250px;
     width: 300px;
@@ -401,9 +405,17 @@ body {
     border-radius: 5px;
 }
 
+.section4-image2 {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.15));
+}
+
 .section4-image3 img {
     height: 230px;
     width: 170px;
+}
+
+.section4-image3 {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.15));
 }
 
 /* section 5 */
