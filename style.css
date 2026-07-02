@@ -609,6 +609,10 @@ body {
 
 /* section 7 */
 
+.section7 {
+    height: 600px;
+}
+
 /* sec7 border top */
 
 .section7 .sec7-border-top {
@@ -635,4 +639,97 @@ body {
 
 .section7 .box-name p {
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* heading */
+
+
+.section7 .heading {
+    display: flex;
+}
+
+.section7 .bold-head p {
+    font-size: 5rem;
+}
+
+.section7 .light-head p {
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 1rem;
+}
+
+/* lower part */
+
+.lower-part {
+    display: flex;
+}
+
+.lower-part .content {
+    width: 50%;
+}
+
+/* box 1 */
+
+.lower-part .box1 {
+    height: 60px;
+    width: 55%;
+    font-size: 0.9rem;
+    margin-top: 6rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.lower-part .box1 p {
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+/* box 2 */
+
+.lower-part .box2 {
+    height: 60px;
+    width: 55%;
+    font-size: 0.9rem;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.lower-part .box2 p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* box 3 */
+
+.lower-part .box3 {
+    height: 60px;
+    width: 55%;
+    display: flex;
+    padding-top: 1rem;
+}
+
+/* big text */
+
+.lower-part .box3 .big-text {
+    font-size: 2rem;
+}
+
+/* small text */
+
+.lower-part .box3 .small-text p{
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1rem 0 0 1rem;
+}
+
+/* section 7 image */
+
+.sec7-image img {
+    height: 250px;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 4rem 0 0 8rem;
+}
+
+.sec7-image {
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.15));
 }
