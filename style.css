@@ -885,3 +885,15 @@ body {
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.7);
 }
+
+/* paragraph */
+
+.section9 .para {
+    width: 24rem;
+    margin: 20px 0 20px 0;
+}
+
+.section9 .para p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.6);
+}
