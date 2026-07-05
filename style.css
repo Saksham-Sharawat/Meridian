@@ -148,7 +148,7 @@ body {
 
 .bold-text p {
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .normal-text {
@@ -157,7 +157,7 @@ body {
 
 .normal-text p {
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 550;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -347,6 +347,7 @@ body {
 
 .section4 .first-line {
     display: flex;
+    font-weight: 550;
 }
 
 .section4 .first-line .fade {
@@ -357,6 +358,7 @@ body {
 /* second line */
 
 .section4 .second-line {
+    font-weight: 550;
     display: flex;
     justify-content: space-between;
 }
@@ -519,6 +521,7 @@ body {
 
 .section6 .heading {
     display: flex;
+    font-weight: 550;
 }
 
 .section6 .bold-head p {
@@ -646,6 +649,7 @@ body {
 
 .section7 .heading {
     display: flex;
+    font-weight: 550;
 }
 
 .section7 .bold-head p {
@@ -740,7 +744,7 @@ body {
     height: 600px;
 }
 
-/* sec7 border top */
+/* sec8 border top */
 
 .section8 .sec8-border-top {
     display: flex;
@@ -773,6 +777,7 @@ body {
 
 .section8 .heading {
     display: flex;
+    font-weight: 550;
 }
 
 .section8 .bold-head p {
@@ -863,4 +868,20 @@ body {
 
 .section9 {
     height: 1200px;
+}
+
+/* heading */
+
+.section9 .heading {
+    line-height: 3rem;
+    font-weight: 550;
+}
+
+.section9 .bold p {
+    font-size: 3rem;
+}
+
+.section9 .light p {
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.7);
 }
