@@ -908,3 +908,37 @@ body {
     height: 800px;
     border: 1px solid rgba(128, 128, 128, 0.2);
 }
+
+/* section 10  */
+
+.section10 {
+    height: 1400px;
+}
+
+/* header */
+
+.section10 .header {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.section10 .header p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.section10 .header .left-side {
+    width: 17vw;
+}
+
+.section10 .header .middle-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section10 .header .right-side {
+    width: 3vw;
+}
