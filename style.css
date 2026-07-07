@@ -984,3 +984,46 @@ body {
     margin: 0 0.1rem 0 0.1rem;
     padding: 0.1rem 0.25rem 0.1rem 0.25rem;
 }
+
+/* exchange images */
+
+.section10 .images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+/* image 1 */
+
+.exchange-img-1 {
+    height: 17rem;
+}
+
+.exchange-img-1 img {
+    width: 90vw;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* image 2 */
+
+.exchange-img-2 {
+    height: 17rem;
+}
+
+.exchange-img-2 img {
+    width: 90vw;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* image 3 */
+
+.exchange-img-3 {
+    height: 17rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.exchange-img-3 img {
+    width: 90vw;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
