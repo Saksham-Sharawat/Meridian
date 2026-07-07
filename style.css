@@ -1027,3 +1027,33 @@ body {
     width: 90vw;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* section 11 */
+
+.section11 {
+    height: 600px;
+}
+
+/* header */
+
+.section11 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 1rem;
+}
+
+.section11 .header .left-part {
+    display: flex;
+    align-items: center;
+}
+
+.section11 .header .left-part {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.section11 .header .left-part .white {
+
+}
