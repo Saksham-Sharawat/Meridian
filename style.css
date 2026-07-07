@@ -942,3 +942,45 @@ body {
 .section10 .header .right-side {
     width: 3vw;
 }
+
+/* content */
+
+/* heading */
+
+.section10 .content {
+    height: 100%;
+    width: 100%;
+}
+
+.section10 .content .heading {
+    font-size: 5rem;
+    font-weight: 550;
+    margin: 2rem 0 1rem 0;
+}
+
+.section10 .heading .light-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* paragraph */
+
+.section10 .para {
+    width: 22rem;
+}
+
+.section10 .para p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.75rem;
+}
+
+.section10 .para .red-dot {
+    color: red;
+}
+
+.section10 .para .red-box-text {
+    font: 0.75rem;
+    background-color: red;
+    color: black;
+    margin: 0 0.1rem 0 0.1rem;
+    padding: 0.1rem 0.25rem 0.1rem 0.25rem;
+}
