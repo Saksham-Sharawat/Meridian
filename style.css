@@ -1054,6 +1054,12 @@ body {
     color: rgba(255, 255, 255, 0.6)
 }
 
+/* body container */
+
+.section11 .body-container {
+    display: flex;
+}
+
 /* content*/
 
 /* heading */
@@ -1085,4 +1091,30 @@ body {
 .section11 .content .paragraph p {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* image */
+
+.section11 .image {
+    display: inline;
+    flex-direction: column;
+}
+
+.section11 .image img {
+    width: 20rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin: 8rem 0 0 13rem;
+}
+
+.section11 .image .image-label {
+    height: 2rem;
+    width: 20rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    margin: 0 0 0 13rem;
+    position: relative;
+    top: -0.26rem;
+    display: flex;
+    justify-content: space-between;
 }
