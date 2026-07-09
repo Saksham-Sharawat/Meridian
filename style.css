@@ -1116,5 +1116,12 @@ body {
     position: relative;
     top: -0.26rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.section11 .image .image-label p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0.5rem;
 }
