@@ -1034,6 +1034,7 @@ body {
     height: 550px;
     width: 100%;
     background: radial-gradient(rgba(255,255,255,0.1) 0% 1%, rgb(11, 11, 11) 70% 100%);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
 /* header */
@@ -1155,4 +1156,39 @@ body {
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.6);
     margin: 0.5rem;
+}
+
+/* section 12 */
+
+.section12 {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.section12 .container {
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
+}
+
+.section12 .card {
+    height: 100px;
+    width: 450px;
+    font-size: 3rem;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4rem;
+}
+
+@keyframes scroll {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-50%);
+    }
 }
