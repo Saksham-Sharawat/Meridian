@@ -1214,3 +1214,33 @@ body {
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* content */
+
+.section13 .content {
+    height: 100%;
+}
+
+/* heading */
+
+.section13 .heading {
+    font-size: 17rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* paragraph */
+
+.section13 .paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section13 .paragraph-container {
+    width: 28em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;    
+}
