@@ -1192,3 +1192,25 @@ body {
         transform: translate(-50%);
     }
 }
+
+/* section 13 */
+
+.section13 {
+    height: 700px;
+}
+
+/* header */
+
+.section13 .header {
+    height: 2rem;
+    margin-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.section13 .header p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+}
