@@ -1163,7 +1163,7 @@ body {
 .section12 {
     width: 100%;
     overflow: hidden;
-    padding: 0 20px;
+    margin-right: 20px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
