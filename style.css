@@ -1196,7 +1196,7 @@ body {
 /* section 13 */
 
 .section13 {
-    height: 700px;
+    height: 750px;
     width: 100%;
     background: radial-gradient(rgba(255,255,255,0.1) 0% 1%, rgb(11,11,11) 70% 100%);
 }
@@ -1250,6 +1250,13 @@ body {
 /* subscribe section */
 
 .section13 .content .subscribe-section {
+    
+    margin: 2em 0;
+}
+
+/* upper */
+
+.section13 .subscribe-section .upper {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1258,9 +1265,75 @@ body {
 /* email enter bar */
 
 .section13 .content .subscribe-section .email-enter-bar input {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.07);
     color: rgba(255, 255, 255, 0.6);
-    border: 2px solid rgba(128, 128, 128, 0.2);
+    border: 2px solid rgba(128, 128, 128, 0.3);
     height: 2em;
-    width: 20em;
+    width: 18em;
+    font-size: 1rem;
+    margin-right: 1em;
+}
+
+/* subscribe-button */
+
+.section13 .content .subscribe-section .subscribe-button button {
+    height: 2.3em;
+    width: 7em;
+    border-radius: 25px;
+    color: white;
+    background: linear-gradient(rgb(43, 43, 43), black);
+    border: 2px solid white;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+/* lower */
+
+.section13 .content .subscribe-section .lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.section13 .subscribe-section .lower p {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* pages */
+
+.section13 .pages {
+    height: 100px;
+    margin: 0 20em;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.section13 .pages .heading {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: left;
+}
+
+.section13 .pages p {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.section13 .pages .product {
+    width: 15em;
+    text-align: left;
+}
+
+.section13 .pages .resources {
+    width: 15em;
+}
+
+.section13 .pages .legal {
+    width: 15em;
 }
