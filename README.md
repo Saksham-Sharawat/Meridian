@@ -4,6 +4,10 @@
 
 Meridian is a beautiful web application UI tailored for managing logs, metrics, and traces. Designed with a focus on a "keyboard-first" experience, it helps teams managing production environments to significantly reduce their Mean Time To Resolve (MTTR) incidents.
 
+## 🌐 Live Preview
+
+**[🚀 View Live Demo → https://meridian-nine-black.vercel.app/](https://meridian-nine-black.vercel.app/)**
+
 ## ✨ Features
 
 - **⌨️ Keyboard-First Interface:** Navigate and resolve issues at lightning speed without taking your hands off the keyboard.
